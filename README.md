@@ -20,7 +20,7 @@ npx playwright test <filename>.js
 ### Test Steps
 1. Navigate to the WordPress login page at https://zongericht.wp-site.xyz/wp-admin.
 2. Fill in the username field with 'Guest'.
-3. Fill in the password field with 'Thessa1472'.
+3. Fill in the password field with '***'.
 4. Click the 'Log In' button.
 5. Navigate to the WordPress admin dashboard.
 6. Navigate to the logout page at https://zongericht.wp-site.xyz/wp-login.php?loggedout=true&wp_lang=en_US.
