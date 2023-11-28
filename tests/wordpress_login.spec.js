@@ -12,7 +12,7 @@ test('Zongericht WordPress Login', async function({ page }) {
 
   // Filling in the password field with 'Thessa1472'
   await page.getByLabel('Password', { exact: true }).click();
-  await page.getByLabel('Password', { exact: true }).fill('Thessa1472');
+  await page.getByLabel('Password', { exact: true }).fill('***');
 
   // Clicking the 'Log In' button
   await page.getByRole('button', { name: 'Log In' }).click();
